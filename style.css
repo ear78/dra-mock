@@ -1,0 +1,193 @@
+/*
+    black: #262626;
+    navy: #053972;
+
+*/
+///////////////////////////////////////
+//// GLOBAL STYLES
+///////////////////////////////////////
+*,html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+/* ICON FONTS */
+.fa {
+    font-size: 1.125em;
+}
+
+a {
+    color: #262626;
+    text-decoration: none;
+}
+
+.main-content-width-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+
+/*p {
+  max-width: 650px;
+}*/
+
+.color-bar {
+    width: 100%;
+    height: 15px;
+    background: #053972;
+}
+
+.button {
+  text-transform: uppercase;
+  border: 1px solid #262626;
+  padding: 10px 25px;
+  background: none;
+  transition: all .3s ease;
+}
+
+.button:hover {
+  background: #fff;
+  opacity: .6;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+    padding: 0 15px;
+}
+
+.main-header ul {
+    display: flex;
+}
+
+.main-header .logo {
+    width: 115px;
+}
+
+.main-header li {
+    margin: 0 6px;
+}
+
+.main-header a {
+    text-decoration: none;
+    color: #262626;
+    font-weight: 300;
+}
+
+.main-header .search-container {
+    position: relative;
+}
+
+.main-header input {
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    width: 160px;
+    font-weight: 300;
+}
+
+.main-header .search-icon {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    width: 18px;
+}
+
+.main-header i {
+    padding: 4px;
+}
+
+.category-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #053972;
+}
+
+.category-menu ul {
+    display: flex;
+}
+
+.category-menu li {
+    margin: 0 6px;
+}
+
+.category-menu a {
+    color: #fff;
+}
+
+.category-menu .button {
+    background: lightgray;
+    opacity: .8;
+    color: #fff;
+    border: none;
+}
+
+.hero-banner {
+    display: flex;
+    padding-top: 50px;
+}
+
+.hero-left-box {
+    width: 45%;
+    text-align: center;
+}
+
+.hero-right-box {
+    width: 55%;
+}
+
+.hero-right-box h1 {
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero-icon-box {
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.hero-icon-box div {
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.health {
+    display: flex;
+    justify-content: space-between;
+}
+
+.health div {
+    position: relative;
+    width: 33%;
+}
+
+.health img {
+    max-width: 100%;
+}
+
+.health-layer-box h2,
+.health-layer-box p {
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.health .health-layer-box {
+    color: white;
+    background: black;
+    background: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0,.5));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+}
