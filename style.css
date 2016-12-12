@@ -69,8 +69,21 @@ header nav {
 //// HERO PIC SECTION
 /////////////////////////////////*/
 
+.column-padding {
+    padding: 0 5px;
+}
+
 .hero-pic-section {
     border: 1px solid red;
+    display: flex;
     width: 100%;
     min-height: 600px;
+}
+
+.hero-pic-section img {
+    max-width: 100%;
+}
+
+.hero-pic-section div {
+    width: 33.3%;
 }
