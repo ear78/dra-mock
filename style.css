@@ -41,6 +41,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 15px;
 }
 
 header div {
@@ -73,17 +74,24 @@ header nav {
     padding: 0 5px;
 }
 
-.hero-pic-section {
-    border: 1px solid red;
+.hero-container {
     display: flex;
+}
+
+.hero-pic-section {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     min-height: 600px;
 }
 
 .hero-pic-section img {
     max-width: 100%;
+    margin-bottom: 10px;
+    transition: all .1s ease;
 }
 
-.hero-pic-section div {
-    width: 33.3%;
+.hero-pic-section img:hover {
+    /*background: black;*/
+    opacity: .5;
 }
