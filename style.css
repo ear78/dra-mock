@@ -419,6 +419,43 @@ footer .location-icon {
     width: 32px;
 }
 
+/*////////////////////////////////*/
+/*/////////////////////////////////
+//// ABOUT PAGE
+/////////////////////////////////*/
+
+.about .info {
+    display: flex;
+}
+
+.about .info .left-box,
+.about .info .right-box {
+    width: 50%;
+}
+
+.about .info .right-box h2,
+.about .info .right-box p {
+    width: 85%;
+    margin: 20px 9%;
+    line-height: 1.2;
+}
+.about .info button {
+    display: block;
+    margin: 35px 9%;
+}
+
+.about .info img {
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
 /*/////////////////////////////////
 //// MEDIA QUERIES
 /////////////////////////////////*/
