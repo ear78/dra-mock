@@ -51,7 +51,8 @@ a:hover {
 }
 
 .inner-wrap {
-    max-width: 960px;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .standard-button {
@@ -191,7 +192,7 @@ header .tree-icon {
 /////////////////////////////////*/
 
 .social-container {
-    background-color: #333333;
+    background-color: none;
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -421,6 +422,12 @@ footer .location-icon {
 /*/////////////////////////////////
 //// MEDIA QUERIES
 /////////////////////////////////*/
+
+@media (max-width:1279px ) {
+    .social-container {
+        background-color: #333333;
+    }
+}
 
 @media (max-width: 900px) {
     .go-somewhere-pic-container {
