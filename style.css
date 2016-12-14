@@ -444,6 +444,13 @@ footer .location-icon {
     margin: 35px 9%;
 }
 
+.about .right-box svg {
+    width: 145px;
+    height: auto;
+    margin: 0px auto;
+    display: block;
+}
+
 .about .info img {
     max-width: 100%;
 }
